@@ -1,0 +1,11 @@
+OPENAI_API_KEY = ""
+OPENAI_BASE_URL = ""
+req_num = 97
+similarity_search_k = 2
+model_list = ['Baichuan4', 'deepseek-chat', 'gpt-3.5-turbo', 'gpt-4', 'mixtral-8x7b']
+model = model_list[3]
+file_analysis = './analysis.json'
+files_prev_q = ''
+exam = '1.exam.json'
+data_path = './data/different_prompt_engineering'
+data_file = 'result_' + str(model) + '.txt'
